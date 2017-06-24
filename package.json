@@ -4,7 +4,7 @@
   "description": "HttpStatus class extends of Error",
   "main": "index.js",
   "scripts": {
-    "babel": "babel es6 --out-dir lib --presets=babel-preset-env",
+    "babel": "babel es6 --out-dir lib --presets=babel-preset-env --entry=babel-polyfill",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
