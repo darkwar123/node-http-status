@@ -1,0 +1,27 @@
+{
+  "name": "node-http-status",
+  "version": "1.0.0",
+  "description": "HttpStatus class extends of Error",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel es6 --out-dir lib --presets=babel-preset-env",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwar123/node-http-status.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Gadzhiev Said",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkwar123/node-http-status/issues"
+  },
+  "homepage": "https://github.com/darkwar123/node-http-status#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
